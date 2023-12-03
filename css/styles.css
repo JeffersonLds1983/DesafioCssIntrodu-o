@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@400;700&display=swap');
+
+:root {
+    --color-red: #F03C42;
+    --color-white: #FFFFFF;
+    --color-dark-blue: #222374;
+    --color-black: #000000;
+    --color-gray: #CCCCCC;
+}
+
+* {
+    font-family: "Open Sans", sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a,
+a:hover {
+    color: unset;
+    text-decoration: none;
+}
+
+header {
+    background-color: var(--color-red);
+    width: 1200px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    padding: 40px 120px;
+}
+
+nav h1 {
+    color: var(--color-white);
+    font-size: 18px;
+}
+
+nav img {
+    margin-left: auto;
+    margin-right: 10px;
+}
+
+nav a {
+    color: var(--color-white);
+    font-size: 14px;
+}
+
+.container-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+#fitness-space {
+    background-color: var(--color-dark-blue);
+    width: 1200px;
+    height: 418px;
+    padding: 20px 120px 40px;
+}
+
+#fitness-space h2 {
+    color: var(--color-white);
+    font-size: 32px;
+    padding: 0 0 40px 0;
+}
+
+.fitness-description {
+    background-color: var(--color-gray);
+    color: var(--color-black);
+    height: 127px;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.fitness-description p {
+    color: var(--color-black);
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+#modalities {
+    background-color: var(--color-white);
+    width: 1200px;
+    height: 880px;
+    padding: 20px 120px 40px;
+}
+
+#modalities h2 {
+    color: var(--color-red);
+    font-size: 32px;
+    padding: 0 0 40px 0;
+}
+
+.modalities-description {
+    background-color: var(--color-dark-blue);
+    color:var(--color-white);
+    height: 106px;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.modalities-description p {
+    color: var(--color-gray);
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+footer {
+    background-color: var(--color-black);
+    color: var(--color-white);
+    width: 1200px;
+    height: 262px;
+    display: flex;
+    align-items: center;
+    padding: 60px 120px;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column; 
+}
+
+.instagram {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;  
+}
+
+.instagram a {
+    margin-left: 10px;
+    font-size: 14px; 
+}
+
+.twiter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.twiter a {
+    margin-left: 10px;
+    font-size: 14px; 
+}
+
+.reference-links {
+    display: block;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 14px; 
+}
